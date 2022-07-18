@@ -1,0 +1,191 @@
+#title {
+  background-color: #93B5C6;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+
+
+h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+
+  font-weight: 500;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.logo {
+  font-family: ubuntu;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.p1title {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.fa-clock {
+  padding-right: 5px;
+}
+
+.cta {
+  margin-top: 30px;
+}
+
+.omarprofile {
+  height: 500px;
+  display: flex;
+  margin: auto;
+
+
+}
+
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+.feature-icons {
+  color: #93B5C6;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #2e4d5c;
+}
+
+.featuretextsm {
+  font-size: 1.2rem;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: #93B5C6;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.img-testimonial {
+  border-radius: 100%;
+  margin: 20px;
+  width: 150px;
+}
+
+
+#pricing {
+  padding: 6% 15%;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #93b5c6;
+    color: white;
+}
+
+.pricingsmtxt {
+  padding-bottom: 30px;
+}
+
+
+#cta {
+  background-color: #303334;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.ctah3 {
+  padding: 4% 0;
+  text-align: center;
+  color: white;
+}
+
+#footer {
+  background-color: #303334;
+}
+
+.footertext {
+  color: white;
+  padding: 20px;
+}
+
+
+.footerbt {
+  margin: 20px;
+}
+
+
+  .maintext {
+    padding: 99px 0 99px;
+  }
+
+  .footertext {
+    text-align: center;
+  }
+
+
+@media (max-width: 991px) {
+  .omarprofile {
+    position: static;
+    padding: 13% 5% 0%;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .maintext {
+    text-align: center;
+    padding: 99px 0 0 0;
+  }
+
+  .omarprofile {
+    margin-bottom: 50px;
+  }
+
+  .pricebox {
+    margin-top: 60px;
+  }
+
+}
